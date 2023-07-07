@@ -1,6 +1,6 @@
 ## Consistent return 2023-07-05
 
-- Примериы consistent return как для возврата значений через return, так и для callback: https://github.com/HowProgrammingWorks/ConsistentReturn/tree/main/JavaScript
+- Примериы consistent return с использованием `void` как для возврата значений через `return`, так и для `callback`: https://github.com/HowProgrammingWorks/ConsistentReturn/tree/main/JavaScript
 - Eslint правила и примеры: https://eslint.org/docs/latest/rules/consistent-return
 
 ## Middleware 2023-07-03
