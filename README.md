@@ -1,3 +1,16 @@
+## SQL templates for JavaScript 2023-07-17
+
+Наилучший из мне известных способов вставить SQL в код на JavaScript с использованием шаблонных строк, подстановкой переменных в формате `${name}` и именованных параметров через `${'name'}` и передачей параметров в виде объекта-коллекции. Код и тесты (они же примеры вызова) тут: https://github.com/metarhia/metasql/pull/273/files
+```js
+const query = db.sql`
+  SELECT * FROM "City"
+  WHERE "cityId" < ${5} AND "name" <> 'La Haye-en-Touraine'
+  ORDER BY name LIMIT 3
+`;
+const cityCodes = await query6.dict('name', 'cityId');
+// { Alexandria: '3', Athens: '4', Paris: '1' }
+```
+
 ## Query builder concept 2023-07-11
 
 Самый простой примеры билдера запросов с поддержкой цепочек вызовов (чеининг) и контракта Thenable: https://github.com/HowProgrammingWorks/Thenable/blob/master/JavaScript/a-query.js
