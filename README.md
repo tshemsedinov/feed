@@ -10,10 +10,17 @@ const query = db.sql`
 const cityCodes = await query6.dict('name', 'cityId');
 // { Alexandria: '3', Athens: '4', Paris: '1' }
 ```
+Можете сравнить с пердыдущим примером билдера. Ленивый учит дважды: если кто учил ORM, чтобы не учить SQL, то будет учить и то и другое.
 
 ## Query builder concept 2023-07-11
 
-Самый простой примеры билдера запросов с поддержкой цепочек вызовов (чеининг) и контракта Thenable: https://github.com/HowProgrammingWorks/Thenable/blob/master/JavaScript/a-query.js
+Самый простой пример билдера запросов с поддержкой цепочек вызовов (чеининг) и контракта Thenable: https://github.com/HowProgrammingWorks/Thenable/blob/master/JavaScript/a-query.js
+```js
+const sql = await new Query('cities')
+  .where({ country: 10, type: 1 })
+  .order('population')
+  .limit(10);
+```
 
 ## Training projects 2023-07-10
 
