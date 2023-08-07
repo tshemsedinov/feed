@@ -1,6 +1,6 @@
-## WebAssembly examples 2023-08-07
+## WebAssembly loader 2023-08-07
 
-Пока делал лекцию по WebAssembly для курса по Node.js с использованием Rust, C++, WAT, AssemblyScript, обнаружил, что wasm-pack имеет невменяемый и глючный загрузчик на 3 кила, вот тут загрузчик на 10 строк для ноды https://github.com/HowProgrammingWorks/WebAssembly Оформляю его сейчас в библиотеку отдельную, сегодня же будет в npm.
+Пока делал лекцию по WebAssembly для курса по Node.js с использованием Rust, C++, WAT, AssemblyScript, обнаружил, что wasm-pack имеет невменяемый и глючный загрузчик на 3 кила, вот тут загрузчик на 10 строк для ноды https://github.com/HowProgrammingWorks/WebAssembly Более универсальный вариант опубликован уже в npm, лежит тут: https://github.com/tshemsedinov/wasm-import
 
 ## Drop Nodejs 14 support 2023-08-02
 
