@@ -16,6 +16,10 @@ Here's what I suggest learning and practicing.
 - Github repo: https://github.com/tshemsedinov/Programming-Knowledge
 - Initial Twitter article: https://x.com/tshemsedinov/status/1809633457754034433
 
+## Async Interview Questions 2024-07-04
+
+Asynchronous programming interview questions and recommendations for JavaScript and TypeScript developers: https://github.com/tshemsedinov/Async-Interview-Questions
+
 ## Screening 2023-11-24
 
 💥 Увольте своих HR если они говорят вам, что нужно усилить фильтры формальными требованиями и ужесточить скрининг.  
