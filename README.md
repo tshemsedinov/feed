@@ -2,6 +2,13 @@
 
 Here is special repo for course and links about rethinking GRASP, SOLID, GoF patterns, for Frontend (browsers) & Backend (node.js, other runtimes) development with JavaScript and TypeScript: https://github.com/tshemsedinov/Patterns-JavaScript
 
+## Essential Knowledge for Programmers 2024-07-06
+
+Here's what I suggest learning and practicing.
+
+- Github repo: https://github.com/tshemsedinov/Programming-Knowledge
+- Initial Twitter article: https://x.com/tshemsedinov/status/1809633457754034433
+
 ## Screening 2023-11-24
 
 💥 Увольте своих HR если они говорят вам, что нужно усилить фильтры формальными требованиями и ужесточить скрининг.  
