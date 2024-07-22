@@ -1,6 +1,8 @@
 ## Patterns for JavaScript & Node.js 2024-07-22
 
-Here is special repo for course and links about rethinking GRASP, SOLID, GoF patterns, for Frontend (browsers) & Backend (node.js, other runtimes) development with JavaScript and TypeScript: https://github.com/tshemsedinov/Patterns-JavaScript
+Here is special repo for course and links about rethinking GRASP, SOLID, GoF patterns, for Frontend (browsers) & Backend (node.js, other runtimes) development with JavaScript and TypeScript.
+- Github: https://github.com/tshemsedinov/Patterns-JavaScript
+- Initial Twitter article: https://x.com/tshemsedinov/status/1815304825719881808
 
 ## NodeJS Interview Question 2024-07-07
 
