@@ -4,6 +4,10 @@ Here is special repo for course and links about rethinking GRASP, SOLID, GoF pat
 - Github: https://github.com/tshemsedinov/Patterns-JavaScript
 - Initial Twitter article: https://x.com/tshemsedinov/status/1815304825719881808
 
+## Promise.withResolvers 2024-07-20
+
+Article about `Promise.withResolvers()` https://x.com/tshemsedinov/status/1814658617821307282 with examples and use cases.
+
 ## NodeJS Interview Question 2024-07-07
 
 ✨🐢 NodeJS 2024 🚀✨ Interview questions and recommendations for app and system backend developers. 
