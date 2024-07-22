@@ -2,6 +2,13 @@
 
 Here is special repo for course and links about rethinking GRASP, SOLID, GoF patterns, for Frontend (browsers) & Backend (node.js, other runtimes) development with JavaScript and TypeScript: https://github.com/tshemsedinov/Patterns-JavaScript
 
+## NodeJS Interview Question 2024-07-07
+
+✨🐢 NodeJS 2024 🚀✨ Interview questions and recommendations for app and system backend developers. 
+- 55 questions for Applied Node.js backend engineer
+- 60 interview questions for system Node.js backend engineer
+Link: https://github.com/tshemsedinov/NodeJS-Interview-Questions
+
 ## Essential Knowledge for Programmers 2024-07-06
 
 Here's what I suggest learning and practicing.
