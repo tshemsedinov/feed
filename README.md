@@ -1,3 +1,7 @@
+## Patterns for JavaScript & Node.js 2024-07-22
+
+Here is special repo for course and links about rethinking GRASP, SOLID, GoF patterns, for Frontend (browsers) & Backend (node.js, other runtimes) development with JavaScript and TypeScript: https://github.com/tshemsedinov/Patterns-JavaScript
+
 ## Screening 2023-11-24
 
 💥 Увольте своих HR если они говорят вам, что нужно усилить фильтры формальными требованиями и ужесточить скрининг.  
