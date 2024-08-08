@@ -1,3 +1,19 @@
+## The Law of Demeter 2024-08-06
+
+🙊 The Law of Demeter (LoD): Don’t talk to strangers
+
+If you see something like this:
+- 👉 connection.parent.service.storage.db.saveRecord
+- 👉 this.action.scenario.bot.telegram.sendMessage
+- 👉 service.find('logger').kind('error').stream.write
+
+You have technical debt! It's time to plan refactoring.
+Each entity (unit/instance) should have only limited knowledge about others (only "closely" related to the current one).
+Each entity should only talk to its friends (immediate friends): don’t talk to strangers!
+
+Вut don't do it in a panic and do not mix refactoring with other issues (like new features implementation).
+Just note that and plan resource allocation.
+
 ## Patterns for JavaScript & Node.js 2024-07-22
 
 Here is special repo for course and links about rethinking GRASP, SOLID, GoF patterns, for Frontend (browsers) & Backend (node.js, other runtimes) development with JavaScript and TypeScript.
