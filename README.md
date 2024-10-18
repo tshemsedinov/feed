@@ -2,6 +2,30 @@
 
 > See more: ...[2024](./README.md), [2023](./2023.md)...
 
+## Union types and V8 optimizations 2024-10-14
+
+⭐️ Good and bad cases for TypeScript union types based on JavaScript V8 optimizations
+
+👍 Good cases for union types:
+- Union of strings instead of enum: `type Direction = 'north' | 'south' | 'east' | 'west';`
+- Union of numeric as status or result code: `type StatusCode = 200 | 201 | 204 | 400 | 500;`
+- Union with shared properties: `type MailTarget = User | Company; (both with email)`
+- Union with common method: `type Thenable = Promise | Query; (both with then method)`
+
+👎 Bad cases for union types:
+- Polymorphic object shapes causing depots: `type Something = User | Socket | string;`
+- Requiring extensive "if"-logic and type checking: `type Input = string | number | boolean;`
+- Inconsistent return types: `function getData(id: number): string | string[];`
+- Mixed primitives and objects: `type Value = number | { value: number };`
+- Сontradictory members: `type Person = { name: string; } | { name: number[] };`
+- Union types that include any: `type FlexibleType = number | any;`
+- Incompatible contracts: `type Handler = (() => string) | ((event: Event, data: any) => void);`
+
+🎁 Empty value for primitive types and reference types:
+- Use null for empty reference types: Object, Function, Array, etc...
+- Use undefined for empty primitive types: string, number, boolean, bigint
+- Avoid mixing symbols with other types in unions
+
 ## Microservices and Complexity 2024-09-24
 
 🏛️ [Проблема сложности](https://x.com/tshemsedinov/status/1838452655242514609), которую решают микросервисы, на самом деле решается проектированием структуры кода на среднем уровне, т.е. люди от функций и классов хотят перескочить сразу к архитектуре, минуя модули, слои, подсистемы. Если код хорошо структурирован на среднем уровне благодаря:
