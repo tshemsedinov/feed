@@ -1,6 +1,53 @@
 # Timur Shemsedinov - Feed Archive - 2024
 
-> See more: ...[2024](./README.md), [2023](./2023.md)...
+> See more: ...[2025](./README.md), [2024](./2024.md), [2023](./2023.md)...
+
+## Template method pattern 2024-12-24
+
+Compare OOP, FP, and Procedural paradigm: https://github.com/HowProgrammingWorks/TemplateMethod
+
+For functional programming: https://github.com/HowProgrammingWorks/TemplateMethod/blob/main/JavaScript/4-functional.js 
+```js
+const moneyTransfer = pipe(
+  validateAccounts,
+  notifyParties,
+  branch({
+    kind: {
+      domestic: pipe(
+        authorizeTransferDomestic,
+        transferFundsDomestic,
+      ),
+      international: pipe(
+        authorizeTransferInternational,
+        transferFundsInternational,
+      ),
+    },
+  }),
+);
+```
+
+For procedural programming: https://github.com/HowProgrammingWorks/TemplateMethod/blob/main/JavaScript/2-procedural.js
+
+```js
+const moneyTransfer = workflow({
+  validateAccounts,
+  notifyParties,
+  authorizeTransfer,
+  transferFunds,
+});
+
+const defaultWorkflow = moneyTransfer({});
+
+const domesticWorkflow = moneyTransfer({
+  authorizeTransfer: authorizeTransferDomestic,
+  transferFunds: transferFundsDomestic,
+});
+
+const internationalWorkflow = moneyTransfer({
+  authorizeTransfer: authorizeTransferInternational,
+  transferFunds: transferFundsInternational,
+});
+```
 
 ## Complex Abstractions 2024-10-21
 
@@ -299,4 +346,4 @@ const sql = await new Query('cities')
 9. Не зацикливайтесь на языке, язык гораздо проще тулинга, поднажмите на git, github, линтеры, ide, docker, ci и тестирование, тулы для отладки.
 10. Ничто так не отвлекает от изучения программирования, как ВУЗ и не внушает ложного чувства уверенности, как ИТ-курсы от инфожуликов.
 
-> See more: ...[2024](./README.md), [2023](./2023.md)...
+> See more: ...[2025](./README.md), [2024](./2024.md), [2023](./2023.md)...
