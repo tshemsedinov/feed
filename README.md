@@ -15,6 +15,39 @@
 
 👉 https://t.me/metarhia/1793
 
+## Software Structure & Architecture 2025-02-28
+
+New course structure
+
+- Layered (onion), DDD, Clean architecture
+- App structure, Modularity, DI, unittesting
+- DTOs, models, race conditions
+- Hexagonal Architecture, ports and adapters architecture
+- Clustering, Parallel, Distributed systems, CAP, ACID, BASE, Locking, CQRS
+- Actor Model
+- Databases, data modeling
+- Domain Specific Languages: DSL, AST, LISP
+- Command, QueryObject, CQS, CQRS, EventSourcing
+- Messaging: MQ, Pub/Sub, Pull
+- System integration and topology: API, bus, brocker, MQ
+- Communication styles: data, call, event, log sync, p2p, blockchain
+- Feature-Sliced Design
+- Architecture for Web: DDD for Frontend and Backend
+- Pipeline architecture
+- SOA: web services, microservices, serverless
+- Data warehouses and DBMS: relational, noSQL, columnar, key-value
+- API Design
+- Corporate integration buses (exchange with external subsystems)
+- Task and resource schedulers
+- Testing, quality assessments, continuous integration
+- Infrastructure, deployment, update, migration, reengineering
+- Balancing, replication, sharding, resharding, backups and recovery
+- Security, authorization, authentication, application firewall
+- Application and system logging, incident investigation
+- Analysis and reengineering of business processes
+
+👉 https://github.com/HowProgrammingWorks/Index/blob/master/Courses/Architecture-2025.md
+
 ## Contracts: naming, clear semantics, LoD 2025-02-26
 
 Признак хорошо спроектированного контракта (будь то интерфейс, сигнатура, абстрактный класс, фасад, тип, API...) — это когда:
