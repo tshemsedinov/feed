@@ -2,6 +2,22 @@
 
 > See more: ...[2025](./README.md), [2024](./2024.md), [2023](./2023.md)...
 
+## PWA for offline-first 2025-07-31
+
+Features:
+- Single WebSocket connection shared across tabs
+- Can be installed as a native app
+- Works without internet connection
+- Background caching
+- Automatic reconnection
+- HTTPS headers and CORS support
+
+Link: https://github.com/HowProgrammingWorks/PWA
+
+## AI in Engineering is a problem 2025-07-28
+
+Главная проблема AI в программировании в том, что люди хотят, чтобы AI за них писал и был им синьором, а они ему помогали как джуны. А нужно воспринимать AI как джуна, чтобы он помогал вам, как синьору.
+
 ## How to create own framework 2025-03-04
 
 💡 Как сделать новый популярный фреймворк:
