@@ -11,6 +11,30 @@ https://github.com/metarhia/metautil/blob/gsid-ai/lib/TASKS.md
 https://github.com/metarhia/metautil/blob/gsid-ai/lib/gsid.js а также много вспомогательного кода для анализа результатов, отчета по производительности и оптимизации, который я добавил в конец файла TASKS_md.
 
 Некоторые материалы я публикую здесь, другие будут доступны только студентам. Скоро запишу видео со сравнением — что получается, если воспринимать ИИ как ассистента, и что выходит, когда человек не понимает задачу и не умеет управлять ИИ.
+## Coding with AI: Cursor 2025-08-02
+
+🚀 Together, these technologies form the infrastructure for local-first applications:
+
+- PWA (Progressive Web App)
+  > Web apps with UX close to native: offline mode, installation, fast loading. Solve issues with poor connectivity and slow networks by combining the strengths of web and native applications.
+- CRDT (Conflict-Free Replicated Data Types)
+  > Data structures for automatic conflict resolution in distributed systems. Solve synchronization and concurrent editing problems, enabling offline-first applications without data loss or conflicts.
+- CAS Containers (Compare-And-Swap)
+  > Atomic concurrency mechanism holding entire database record protected by hashes or versions. Solve race conditions and concurrent modification conflicts, ensure data consistency, and enable optimistic concurrency control in distributed databases.
+- IndexedDB (browser built-in database)
+  > Client-side database API for transactional storage of structured data in browsers. Solves offline persistence, local querying, caching, and building b-tree indexes.
+- OPFS (Origin Private File System)
+  > Secure, high-performance file system accessible only by web applications within their origin. Solves large file storage issues and enables high-speed file operations on the web.
+- Blockchain (without mining)
+  > Distributed, reliable ledger for decentralized databases and immutable history. Solves data integrity, immutability, transparency, and trust issues.
+- JavaScript Smart Contracts
+  > Business logic executed in JavaScript within decentralized environments. Solves automation and trust issues related to data changes, ensures automatic enforcement of agreements, and secure code execution.
+- WebSocket
+  > Protocol for real-time, two-way data exchange over a single TCP connection. Solves latency issues and supports interactive near-real-time applications.
+- WebRTC (Web Real-Time Communication)
+  > Protocol for real-time streaming of multimedia and peer-to-peer data exchange. Solves issues of direct real-time communication, low latency, and decentralization without intermediary servers.
+- Metaschema
+  > Declarative schema language for modeling, validation, and data synchronization. Solves problems of data inconsistency, schema evolution and migration, simplifies metadata definition, and reduces complexity when working with structured data.
 
 ## PWA for offline-first 2025-07-31
 
