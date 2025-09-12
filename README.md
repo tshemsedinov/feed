@@ -2,6 +2,15 @@
 
 > See more: ...[2025](./README.md), [2024](./2024.md), [2023](./2023.md)...
 
+## AI and Open-source: 2025-09-05
+
+Кто там кричит «AI заменит программистов»?
+Тут в github тысячи issues есть в самых популярных репозиториях. Когда вы их собираетесь закрывать с помощью AI?
+
+> Node.js 1.7k, Next.js 2.3k, TypeScript 5k, React 811, Redis 2.2k, Angular 1.2k, Go 5k, Deno 2.3k, Rust 5k, Kubernetes 1.9k
+
+Я вот делаю 1 раза в неделю лайвкод с парным программированием на [AI: Cursor, Copilot, Claude code и т.д.](https://www.patreon.com/cw/tshemsedinov)
+
 ## Local-first and CRDT: Cursor 2025-08-17
 
 Тут пример приложения с автоматической синхронизацией состояния между закладками, сервером и несколькими устройствами по принципу local-first, объяснение подхода и того, как в нем применяются Service worker, CRDT, OPFS и другие части технологии
