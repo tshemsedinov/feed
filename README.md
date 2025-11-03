@@ -2,6 +2,27 @@
 
 > See more: ...[2025](./README.md), [2024](./2024.md), [2023](./2023.md)...
 
+## Polymorphism classification: 2025-11-03
+
+1. Ad-hoc polymorphism - Functions or operators behave differently based on argument types
+  - Function and method overloading - Multiple functions with same name, different signatures
+  - Operator overloading - Custom behavior for built-in operators
+  - Type-class polymorphism - Ad-hoc polymorphism via type constraints (e.g. Haskell type classes, Rust traits)
+  - Coercion polymorphism - Implicit or explicit type conversions
+2. Subtype polymorphism - Objects of derived types can be used where base types are expected
+  - Class inheritance - IS-A relationship via base classes
+  - Interface / protocol polymorphism - Contracts that types must implement
+  - Structural (duck typing) polymorphism - Compatibility based on structure, not explicit inheritance
+3. Parametric polymorphism - Code written generically to work with any type (examples will be added ASAP)
+  - Generic functions - Functions parameterized by types
+  - Generic data structures - Data structures parameterized by types
+4. Dispatch mechanisms - How the runtime selects which method to call
+  - Dynamic dispatch - Method chosen at runtime based on object type
+  - Virtual functions and methods - Base class methods overridable by derived classes
+  - Multiple or multimethod dispatch - Method chosen based on multiple argument types
+
+Examples: https://github.com/HowProgrammingWorks/Polymorphism
+
 ## Structural Approach: 2025-10-31
 
 - Nominal Typing - совместимость и эквивалентность типов/классов/интерфейсов по имени в том числе и через наследование.
