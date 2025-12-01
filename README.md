@@ -2,7 +2,39 @@
 
 > See more: ...[2025](./README.md), [2024](./2024.md), [2023](./2023.md)...
 
-## 2025-11-28
+## Referential Transparency 2025-11-28
+
+Lecture: https://youtu.be/m03gMxXpIao
+
+Traditional definition
+> Referential Transparency  is the property of a function, expression, or object that can be replaced by its resulting value without changing the program's behavior.
+
+lternative definition
+> We can pass a reference to any immutable object, pure function, closure (which does not change state) to any part of the program without fear of race conditions or data corruption, even with concurrency and asynchrony.
+
+Meaning
+- Same explicit inputs gives same result
+- No hidden state, no mutation of shared data (Immutable state)
+- No I/O
+- Pure functions
+
+This principle simplifies code reasoning, debugging, and optimization.
+Can be used in Functional, Object-Oriented Programming, other paradigms.
+
+For Object-Oriented Programming:
+> In OOP, referential transparency is achieved when object’s state is immutable. "State changes" are represented by returning a new object rather than mutating existing state.
+
+- Return a new object from methods with changed state
+- Return the same one for methods not changing state
+
+Related ideas:
+
+- Copy-on-write: A memory optimization technique where multiple references can share the same data until one of them needs to modify it, at which point a copy is created. This allows efficient sharing of immutable data structures while preserving referential transparency.
+- Ownership: A memory management concept (prominent in Rust) where each value has a single owner responsible for its lifecycle. When the owner goes out of scope, the value is automatically cleaned up. This prevents data races and memory issues while maintaining referential transparency.
+
+Lecture: https://youtu.be/m03gMxXpIao
+
+## Thanks to AI Copyrights are dead term 2025-11-28
 
 Спасибо AI, что объяснил всем, что код ничего не стоит, авторские права не нужны, важна способность поддерживать его работоспособность и оперативно решать задачи, а горы кода не ценность сама по себе, это просто но не для всех было очевидно, люди держались за свой говнокод, шифровали, хранили на флешках в сейфе, надеюсь, это закончилось
 
