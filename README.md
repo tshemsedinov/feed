@@ -2,6 +2,49 @@
 
 > See more: ...[2026](./README.md), [2025](./2025.md), [2024](./2024.md), [2023](./2023.md)...
 
+## Programming Knowledge: 2026-04-16
+
+Вот собрал тут что важно по хардскилам, вместо ваших алгоритмов, литкода, высоконагруженных кабанчиков и карго-культа микрооптимизации:
+
+- Data structures (just how to use)
+- Type systems: nominal, structural, variance...
+- Modularity system (in your language)
+- Polymorphism (Ad-hoc, Subtype, Parametric, etc...)
+- Structural composition, aggregation, delegation
+- Functional composition, pure functions
+- Abstraction layers separation
+- Dispatch and Dynamic dispatch
+- Referential transparency
+- Law of Demeter
+- Abstract data types (ADT)
+- Hidden and explicit state
+- Lazy evaluation
+- Declarative vs imperative style
+- Recursion versus loops
+- Generics (generic programming)
+- Separation of concerns
+- Isolation, interfaces, architectural boundaries
+- Dependency injection and Inversion of control
+- Coupling and cohesion
+- Mutable vs immutable data
+- Idempotent operations
+- Naming conventions
+- Error handling
+- Refactoring, code review process
+- Tests (unittesting, coverage, end-to-end...)
+- Multiparadigm programming
+- Metaprogramming (codegeneration and dynamic)
+- Platform-agnostic, framework-agnostic approach
+- Domain-Specific Language (DSL), Interpreter, AST
+- Contract programming
+- Concurrency and Asynchronous programming
+- Separation of system and applied code
+- Language and semantics
+- AI-assisted engineering
+
+Но все это тоже должно занимать в голове не более 30% от развития инженера, as of 2026. Про 70% напишу еще чуть позже
+Repo: https://github.com/tshemsedinov/Programming-Knowledge
+
 ## Ralph Loop: 2026-03-15
 
 AI loop (например Ralph) - это порочный круг, на каждой операции ниоткуда не добавляются новых знаний. Нужно стараться, чтоб AI выдавал результат за один раз. А на каждый следующий цикл можно заходить, если есть новые вводные, иначе все это деградирует и сжигает деньги и ваше время. Вот что я хотел на самом деле написать в том посте, который неправильно поняли и который я удалил, хоть я не имею обыкновения удалять посты. Но просто хочу высказаться более точно. Если нужен оригинальный текст, он сохранен тут: https://github.com/tshemsedinov/feed?tab=readme-ov-file#ai-infinite-loop-code-review--tasks--coding-2026-03-12 
