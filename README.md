@@ -95,6 +95,29 @@
 
 Делать продукт - именно этому мы и учим в вормате фонового образования.
 
+## Dependencies checklist: 2026-05-18
+
+Сейчас каждая неделя приносит новый инцидент со взломом с применением нейросетей. Выделите время, проверьте:
+- все `dependencies` они точно нужны?
+- в CI использовать только `npm ci`
+- поднимайте свои dependency registry
+- используйте npm install --min-release-age=7
+- в pnpm делайте minimumReleaseAge: 10080 (тоже 7 дней)
+- lockfile обязателен
+- изменения зависимостей только через review
+- добавьте `npm audit`, Dependabot и Dependency Review на PR
+- npm scripts: `postinstall`, `prepare`, `preinstall`
+- включите 2FA (двухфакторку) для GitHub/GitLab/npm/cloud
+- включите secret scanning, push protection
+- защитите ветки main/release: required reviews, no force push
+- ограничьте Actions/CI permissions до минимальных
+- не публикуемся из Actions/CI
+- не давайте secrets в PR из форкнутых реп
+- Deploy только из protected branches/tags
+- включить backups и регулярно проверять restore
+- AI-generated code проходит review/tests/scans
+- AI tools не получают prod secrets/write access
+
 ## Ashby's Law of Requisite Variety vs AI: 2026-05-15
 
 Вы управляете AI или он вами? В кибернетике есть закон Эшби (закон необходимого разнообразия), в интерпретации Стаффорда Бира: управление может быть обеспечено только в том случае, если разнообразие управляющей системы не меньше, чем разнообразие управляемой
